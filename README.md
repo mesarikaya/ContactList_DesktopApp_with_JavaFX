@@ -15,6 +15,8 @@ This tool enables:
 ## New Contact Addition
 ![alt text](https://github.com/mesarikaya/ContactList_DesktopApp_with_JavaFX/blob/master/Contact%20List%20Snapshots/Capture2.PNG)
 
+## Interactive Contact Deletion
 ![alt text](https://github.com/mesarikaya/ContactList_DesktopApp_with_JavaFX/blob/master/Contact%20List%20Snapshots/Capture3.PNG)
 
+## Interactive Contact Editing
 ![alt text](https://github.com/mesarikaya/ContactList_DesktopApp_with_JavaFX/blob/master/Contact%20List%20Snapshots/Capture4.PNG)
