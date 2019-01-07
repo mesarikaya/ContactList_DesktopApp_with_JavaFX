@@ -54,13 +54,6 @@ public class Controller {
     @FXML
     private ContextMenu listContextMenu;
 
-    /*private final ObservableList<Contact> contactListItems = FXCollections.observableArrayList(
-            new Contact("Ergin", "Sarikaya", "0631957005", "mesarikaya@gmail.com", ""),
-            new Contact("Ergin", "Sarikaya", "0631957005",  "mesarikaya@gmail.com",""),
-            new Contact("Ergin", "Sarikaya", "0631957005",  "mesarikaya@gmail.com",""),
-            new Contact("Ergin", "Sarikaya", "0631957005",  "mesarikaya@gmail.com","")
-    );*/
-
     private ContactData data;
 
     // Initialize the main frame during Application opening
