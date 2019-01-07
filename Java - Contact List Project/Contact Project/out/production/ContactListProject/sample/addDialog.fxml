@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane id="addContactButton" fx:id="addContactDialog" contentText="Enter new contact:" headerText="Add Context" prefHeight="423.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DialogControl">
+    <header>
+      <Label alignment="CENTER" cacheShape="false" centerShape="false" contentDisplay="TOP" focusTraversable="false" graphicTextGap="0.0" scaleShape="false" text="Please enter the contact details:" textAlignment="CENTER" textFill="#407c39">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+   </header>
+   <content>
+      <GridPane alignment="CENTER" focusTraversable="true" hgap="15.0" vgap="15.0">
+         <Label text="First Name:" textFill="#131413" GridPane.columnIndex="0" GridPane.rowIndex="0">
+             <font>
+                 <Font name="System Bold" size="16.0" />
+             </font>
+         </Label>
+         <TextField fx:id="firstNameField" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <font>
+               <Font size="14.0" />
+            </font></TextField>
+         <Label text="Last Name:" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font></Label>
+         <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+               <Font size="14.0" />
+            </font></TextField>
+         <Label text="Phone:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+             <font>
+                 <Font name="System Bold" size="16.0" />
+             </font>
+         </Label>
+         <TextField fx:id="phoneField" GridPane.columnIndex="0" GridPane.rowIndex="3">
+            <font>
+               <Font size="14.0" />
+            </font></TextField>
+         <Label text="Email:" GridPane.columnIndex="1" GridPane.rowIndex="2">
+             <font>
+                 <Font name="System Bold" size="16.0" />
+             </font>
+         </Label>
+         <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <Label text="Notes:" GridPane.columnIndex="0" GridPane.rowIndex="4">
+             <font>
+                 <Font name="System Bold" size="16.0" />
+             </font>
+         </Label>
+         <TextArea fx:id="noteField" prefHeight="77.0" prefWidth="171.0" wrapText="True" GridPane.columnIndex="0" GridPane.rowIndex="5">
+            <font>
+               <Font size="14.0" />
+            </font></TextArea>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+   </content>
+
+</DialogPane>

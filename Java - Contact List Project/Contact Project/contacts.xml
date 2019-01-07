@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Tim</first_name>
+	<last_name>Buchalka</last_name>
+	<phone_number>1234</phone_number>
+	<email>timbuchalka@aol.com</email>
+	<notes>my notes</notes>
+</contact>
+<contact>
+	<first_name>Brian</first_name>
+	<last_name>Johnsons</last_name>
+	<phone_number>5678</phone_number>
+	<email>brians@aol.com</email>
+	<notes>notes</notes>
+</contact>
+<contact>
+	<first_name>Ergin</first_name>
+	<last_name>Sarikaya</last_name>
+	<phone_number>0631957005</phone_number>
+	<email>mesarikaya@gmail.com</email>
+	<notes>This is my own personal phone</notes>
+</contact>
+<contact>
+	<first_name>Emilie</first_name>
+	<last_name>Wegman</last_name>
+	<phone_number>0642536728</phone_number>
+	<email>emiliewegman@hotmail.com</email>
+	<notes>My sweety's contact details :)</notes>
+</contact>
+<contact>
+	<first_name>Janien</first_name>
+	<last_name>Friends</last_name>
+	<phone_number>+1053245234</phone_number>
+	<email>janine@friends.com</email>
+	<notes>From Friends a character</notes>
+</contact>
+<contact>
+	<first_name>Evrim</first_name>
+	<last_name>Sarikaya</last_name>
+	<phone_number>0090</phone_number>
+	<email>evrim_sarikaya@hotmail.com</email>
+	<notes>Evrim'in kontak listesi</notes>
+</contact>
+</contacts>

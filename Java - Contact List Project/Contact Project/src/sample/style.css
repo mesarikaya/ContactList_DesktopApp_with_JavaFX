@@ -1,0 +1,15 @@
+
+
+#addButton  {
+    -fx-background-color: beige;
+}
+
+#closeButton {
+    -fx-background-color: LightCoral;
+}
+
+#aboutButton {
+    -fx-background-color: DarkTurquoise ;
+}
+
+
